@@ -1,0 +1,26 @@
+[new_market]
+window_minutes = 120
+min_liquidity_usd = 200.0
+
+[mispricing]
+deviation_threshold = 0.05
+
+[risk]
+max_position_usd_per_market = 500.0
+max_portfolio_exposure_frac = 0.10
+drawdown_kill_pct = 0.15
+resolution_ramp_days = 7
+
+[quoting]
+target_spread_bps = 50
+reprice_move_bps = 10
+clip_usd = 50.0
+
+[execution]
+latency_target_ms = 50
+cancel_backoff_ms = 100
+
+[sim]
+fees_bps = 20
+slippage_bps_per_100_usd = 3
+exit_horizon_minutes = 60

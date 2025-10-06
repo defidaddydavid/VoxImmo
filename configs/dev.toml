@@ -1,0 +1,9 @@
+[mispricing]
+deviation_threshold = 0.04
+
+[quoting]
+target_spread_bps = 40
+clip_usd = 40.0
+
+[sim]
+exit_horizon_minutes = 45
